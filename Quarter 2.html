@@ -1,0 +1,215 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<body>
+<title>Quarter 2</title>
+<nav>
+		<ul class="ul-menu">
+			<div class="topnav">
+				<a href="Home Page.html">Home Page</a>
+				<a href="Quarter 1.html">Quarter 1</a>
+				<a class="active" href="Quarter 2.html">Quarter 2</a>
+				<a href="Quarter 3.html">Quarter 3</a>
+				<a href="Quarter 4.html">Quarter 4</a>
+				<img src="Logo.png" class="hello">
+			</div>
+		</ul>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+	<div class="header">
+	  <nav>
+		  <img src="image.jpg" alt="Blooming Wellness Hub" class="logo">
+			<h1>Blooming Wellness</h1>
+			<p>"Get aware, because true wellness blooms from within."</p>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="https://www.youtube.com/@BloomingWellnessHub" target="_blank">YouTube Channel</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <section id="about">
+        <h3>About Us</h3>
+        <p>Welcome to Blooming Wellness Hub, where we explore the journey to holistic wellness through various practices and insights.</p>
+    </section>
+
+    <section id="faq">
+        <h3>Frequently Asked Questions</h3>
+        <div class="faq-item">
+            <h4 class="faq-question">What is wellness?</h4>
+            <p class="faq-answer">Wellness is a holistic integration of physical, mental, and spiritual well-being. It's an active pursuit of activities, choices, and lifestyles that lead to a state of good health and high levels of well-being and life satisfaction. Wellness is not just the absence of disease, but a proactive approach to living a healthy and fulfilling life. It encompasses various dimensions, including physical, emotional, mental, social, and spiritual well-being, and is often achieved through a combination of self-care practices, healthy habits, and a supportive environment.</p>
+        </div>
+        <div class="faq-item">
+            <h4 class="faq-question">How can I improve my wellness?</h4>
+            <p class="faq-answer">You can improve your wellness by focusing on physical, mental, and emotional health through various practices.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Blooming Wellness Hub. All rights reserved.</p>
+    </footer>
+</head>
+</body>
+<style>
+.hello{
+	position: absolute;
+	height: auto;
+	left: 0px;
+	width: 87px;
+}
+body {
+	background-image: url('Home Page Wallpaper.jpg');
+}
+
+body {
+  font-family: Georgia, serif;
+  margin: 0;
+}
+h1 {
+	margin-top: 8px;
+	font-size: 50px;
+	font-family: Georgia, serif;
+	font-weight: bold;
+	color: #43302E;
+}
+
+.topnav {
+	position: relevant;
+	margin-top: -22px;
+	top: 0;
+	font-family: Georgia, serif;
+	overflow: hidden;
+	background-color: #976653;
+	font-weight: bold;
+}
+
+.topnav a {
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 46.7px 139.7px;
+	text-decoration: none;
+	font-size: 17px;]
+}
+
+.topnav a:hover {
+	background-color: #E9D7C0;
+	color: #43302E;
+	opacity: 1;
+	transition: 0.3s;
+}
+
+.topnav a.active {
+	background-color:  #E9D7C0;
+	color: #43302E;
+}
+.header {
+	font-family: Georgia, serif;
+	font-weight: bold;
+	position: relevant;
+	padding: 60px;
+	text-align: center;
+	background: #1abc9c;
+	color: #43302E;
+	font-size: 30px;
+	transition: 0.4s;
+	background-image: linear-gradient(to right, #F5C4C8 ,#D8D7B2);
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 1s ease-in;
+}
+.ul-menu{
+	margin-bottom: 0px;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 1s ease-in;
+}
+.faq-item {
+    margin: 10px 0;
+    animation: fadeIn 1s ease-in;
+	
+}
+.faq-question {
+    cursor: pointer;
+    color: #000000;
+    animation: fadeIn 1s ease-in;
+}
+.faq-answer {
+    display: none;
+    margin-top: 5px;
+    color: #000000; 
+    animation: fadeIn 1s ease-in;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background: linear-gradient(to left, #F5C4C8 ,#D8D7B2);
+    color: #43302E;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 1s ease-in;
+}
+section:nth-child(odd) {
+    border-left: 5px solid #ff6f61;
+}
+
+section:nth-child(even) {
+    border-left: 5px solid #6a11cb; 
+}
+.fade-in {
+    animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+</style>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const questions = document.querySelectorAll('.faq-question');
+
+    questions.forEach(question => {
+        question.addEventListener('click', function() {
+            const answer = this.nextElementSibling;
+            answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
+        });
+    });
+
+    // Scroll animation
+    window.addEventListener('scroll', function() {
+        const sections = document.querySelectorAll('section');
+        sections.forEach(section => {
+            const rect = section.getBoundingClientRect();
+            if (rect.top < window.innerHeight && rect.bottom > 0) {
+                section.classList.add('fade-in');
+            }
+        });
+    });
+});
+</script>
+</html>
